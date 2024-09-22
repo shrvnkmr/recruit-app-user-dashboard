@@ -1,5 +1,7 @@
 # Recruit app user dashboard
 
+Check out the live site [here](https://recruit-app-user-dashboard.vercel.app/)!
+
 ## Overview
 The project is built using **Vite** for scaffolding and incorporates **React.js** with **TypeScript** for application development. **Material UI** is used as the UI library, with customization done using **vanilla CSS**. State management is handled by **Redux** with the **Redux Toolkit** middleware. **Jest** and **React Testing Library** are used for testing, and **Boxicons** is utilized for icons. The application is fully responsive across smaller devices.
 
