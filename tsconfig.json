@@ -8,6 +8,7 @@
       "DOM.Iterable",
       "ESNext"
     ],
+    "allowImportingTsExtensions": true,
     "allowJs": false,
     "skipLibCheck": false,
     "esModuleInterop": false,
@@ -35,14 +36,3 @@
     "./src"
   ]
 }
-// {
-//   "files": [],
-//   "references": [
-//     {
-//       "path": "./tsconfig.app.json"
-//     },
-//     {
-//       "path": "./tsconfig.node.json"
-//     }
-//   ]
-// }
