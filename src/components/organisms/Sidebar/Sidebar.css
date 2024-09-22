@@ -1,0 +1,22 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-background-500);
+}
+.sidebarIconWrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+.tabs {
+  .MuiTabs-indicator, .MuiTabScrollButton-root {
+    display: none !important;
+  }
+}
+.tab {
+  .MuiTab-root {
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-text-300);
+  }
+}

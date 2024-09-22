@@ -1,0 +1,13 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+.appLayout {
+  display: flex;
+}
+.contentWrapper {
+  margin-left: 56px; /* Adjust according to the width of your SideNav */
+  width: 100%; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+}

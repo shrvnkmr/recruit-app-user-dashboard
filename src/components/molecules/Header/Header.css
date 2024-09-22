@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-background-500);
+  position: sticky;
+  top: 56px;
+  z-index: 10;
+}
+.breadCrumbNameWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  p {
+    color: var(--color-text-100);
+  }
+}
+.breadcrumbs {
+  p {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .iconWrapper {
+    width: 20px;
+    height: 20px;
+  }
+  .MuiBreadcrumbs-separator {
+    margin: 0;
+  }
+}
+.btnSecondary {
+  background-color: var(--color-white);
+}
+.btnGroupWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+@media (max-width: 1200px) {
+  .header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

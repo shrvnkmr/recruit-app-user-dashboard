@@ -1,0 +1,54 @@
+@import url('https://unpkg.com/boxicons/css/boxicons.min.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-primary: #143E6F;
+
+  --color-blue-300: #2570CA;
+  --color-blue-500: #1070CA;
+  --color-blue-600: #1170CA;
+  --color-blue-700: #1F5FAC;
+  --color-blue-800: #195396;
+
+  --color-accent-100: #E6F1FF;
+  --color-accent-300: #656E7A;
+
+  --color-white: #FFFFFF;
+  --color-background-100: #F8F9FA;
+  --color-background-200: #F1F3F5;
+  --color-background-500: #E9ECEF;
+  --color-background-600: #C8CCD2;
+  --color-background-700: #c4cbd7;
+  
+  --color-text-100: #495057;
+  --color-text-300: #343A40;
+  --color-text-500: #192435;
+
+  --color-green-100: #CCE8DC;
+  --color-green-300: #31A171;
+
+  --color-yellow-100: #FBDDB3;
+  --color-yellow-300: #F08C00;
+
+  --color-red-100: #F6C1C1;
+  --color-red-200: #efb4b4;
+  --color-red-300: #E03131;
+}

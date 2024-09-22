@@ -1,0 +1,26 @@
+.jobComponent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-background-500);
+  border-radius: 4px;
+}
+.jobDetailsWrapper {
+  display: flex;
+  flex-direction: column;
+  .iconWrapper {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  .jobComponent {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .jobDetailsWrapper {
+    gap: 0.25rem;
+  }
+}

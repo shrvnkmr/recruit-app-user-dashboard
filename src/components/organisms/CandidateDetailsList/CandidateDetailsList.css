@@ -1,0 +1,43 @@
+.candidateDetailsList {
+  color: var(--color-text-300);
+}
+.itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.item {
+  flex: 0 0 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.itemTitle,
+.itemValue {
+  flex: 0 0 50%;
+  margin: 0;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 90%;
+}
+.itemTitle {
+  font-weight: 600;
+  font-size: 13px;
+  color: var(--color-text-300);
+}
+.itemValue {
+  font-weight: 500;
+  font-size: 13px;
+  color: var(--color-text-100);
+}
+@media (max-width: 1200px) {
+  .item {
+    flex: 0 0 100%;
+    gap: 0.5rem;
+  }
+}

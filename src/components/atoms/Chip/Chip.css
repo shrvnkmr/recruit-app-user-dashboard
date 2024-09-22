@@ -1,0 +1,11 @@
+.chipWrapper {
+    background-color: var(--color-background-200);
+    border-radius: 5px;
+    border: 1px solid var(--color-background-600);
+    padding: 3px 6px;
+}
+.toDo{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-text-300); 
+}

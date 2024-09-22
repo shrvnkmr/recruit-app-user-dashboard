@@ -1,0 +1,61 @@
+.userCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    border-top: 1px solid var(--color-background-500);
+    z-index: 1;
+    .iconWrapper {
+        width: 64px;
+        height: 64px;
+    }
+}
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+.flexRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.textSm {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--color-text-100);
+}
+.textMd {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--color-text-300);
+}
+.textLg {
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--color-text-300);
+}
+.gap-4 {
+    gap: 1rem
+}
+.gap-2 {
+    gap: 0.5rem
+}
+.userCardBtnWrapper {
+    align-items: flex-start;
+    .iconWrapper {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width: 1200px) {
+    .userCard {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .textSm {
+        font-size: 10px;
+    }
+    .gap-4 {
+        gap: 0.5rem;
+    }
+  }
+  
